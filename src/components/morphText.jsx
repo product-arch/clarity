@@ -84,7 +84,7 @@ const MorphText = () => {
           scale: 1.5,
         });
 
-        const fromAnim = gsap.to(fromEl, {
+        gsap.to(fromEl, {
           scrollTrigger: {
             trigger: '#scrollTrigger',
             start: 'top top',
