@@ -1,5 +1,5 @@
 import React from 'react';
-import MorphText from './components/MorphText';
+import MorphText from './components/morphText.jsx';
 
 const App = () => {
   return (
